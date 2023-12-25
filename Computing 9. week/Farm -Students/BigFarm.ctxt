@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BigFarm()
+comment1.params=animal
+comment1.target=int\ addToList(Animal)
+comment10.params=
+comment10.target=void\ printAll()
+comment11.params=
+comment11.target=void\ printToString()
+comment2.params=aNumber
+comment2.target=java.lang.String\ getItem(int)
+comment3.params=
+comment3.target=int\ noOfItems()
+comment4.params=aBeast
+comment4.target=void\ removeByName(Animal)
+comment5.params=aNumber
+comment5.target=java.lang.String\ removeAtPosition(int)
+comment6.params=animal
+comment6.target=java.lang.String\ addFirst(Animal)
+comment7.params=aBeast
+comment7.target=int\ searchForObject(Animal)
+comment8.params=aBeast
+comment8.target=int\ searchForAnimal(java.lang.String)
+comment9.params=aLetter
+comment9.target=void\ itemsBeginWith(java.lang.String)
+numComments=12

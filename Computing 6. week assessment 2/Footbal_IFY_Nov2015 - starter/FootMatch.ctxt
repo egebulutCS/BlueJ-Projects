@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=hteam\ ateam
+comment0.target=FootMatch(java.lang.String,\ java.lang.String)
+comment0.text=\r\nconstructor\ \r\n
+comment1.params=hgoals\ agoals
+comment1.target=void\ setResult(int,\ int)
+comment1.text=\r\n\ After\ match\ is\ played\ set\ the\ result\r\n
+comment2.params=
+comment2.target=java.lang.String\ getHomeTeamName()
+comment2.text=\r\n\ get\ methods\ for\ the\ team\ object\ to\ invoke\r\n
+comment3.params=
+comment3.target=java.lang.String\ getAwayTeamName()
+comment4.params=
+comment4.target=int\ getHomeGoals()
+comment5.params=
+comment5.target=int\ getAwayGoals()
+comment6.params=
+comment6.target=void\ printResult()
+numComments=7

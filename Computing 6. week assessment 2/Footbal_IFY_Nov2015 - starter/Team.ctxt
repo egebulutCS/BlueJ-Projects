@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=tname
+comment0.target=Team(java.lang.String)
+comment0.text=\r\n\ constructor\ function\ -\ sets\ name\ of\ team\r\n
+comment1.params=match
+comment1.target=void\ getMatchResult(FootMatch)
+comment1.text=\r\n\ this\ method\ checks\ if\ the\ match\ involves\ this\ team\ by\ \r\n\ checking\ the\ home\ team\ name\ and\ the\ away\ team\ name.\r\n\ If\ this\ team\ is\ involved\ it\ then\ gets\ the\ goals\ for\ by\ calling\ the\ getGoalsFor\r\n\ and\ getGoalsAgainst\ methods\ in\ the\ thisMatch\ object\r\n\ It\ then\ calls\ the\ updateStats\ method\ and\ passes\ the\ ourGoals\ and\ theirGoals\r\n\ values\ as\ parameters\r\n
+comment2.params=ourGoals\ theirGoals
+comment2.target=void\ UpDateStats(int,\ int)
+comment2.text=\r\n\ This\ method\ receives\ the\ goals\ for\ and\ goal\ against\ as\ parameter\r\n\ values.\ \r\n\ It\ calculates\ the\ points\ for\ this\ match.\ If\ it's\ a\ win\ then\ the\ points\r\n\ will\ be\ 3,\ if\ a\ draw\ 1\ and\ if\ the\ match\ was\ lost\ 0\ \ points\r\n\ It\ then\ updates\ the\ totalGoalFor,\ totalGoalsAgainst\ and\ totalPoints\ fields.\r\n\ It\ calls\ the\ printStats\ method\ and\ passes\ all\ these\ values\ as\ parmeters.\r\n
+comment3.params=ourG\ theirG\ pts\ totalGFor\ totalGAgainst\ ttlPoints
+comment3.target=void\ printStats(int,\ int,\ int,\ int,\ int,\ int)
+comment3.text=\r\n\ This\ method\ just\ prints\ out\ the\ statistics\ so\ far\ in\ a\ readable\ way\ with\ labels\r\n
+comment4.params=
+comment4.target=java.lang.String\ getTeamName()
+comment5.params=
+comment5.target=int\ getTotalGoalsFor()
+comment6.params=
+comment6.target=int\ getTotalGoalsAgainst()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ this\ method\ will\ return\ the\ name\ of\ the\ team,\ the\ total\ goals\ for\ and\ against\r\n\ and\ the\ total\ points\ \r\n
+numComments=8

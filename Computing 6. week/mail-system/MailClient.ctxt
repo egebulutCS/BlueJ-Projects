@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=server\ user\ password
+comment0.target=MailClient(MailServer,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Create\ a\ mail\ client\ run\ by\ user\ and\ attached\ to\ the\ given\ server.\r\n
+comment1.params=pw
+comment1.target=void\ changePassword(java.lang.String)
+comment2.params=
+comment2.target=MailItem\ getNextMailItem()
+comment2.text=\r\n\ Return\ the\ next\ mail\ item\ (if\ any)\ for\ this\ user.\r\n
+comment3.params=pw
+comment3.target=void\ printNextMailItem(java.lang.String)
+comment3.text=\r\n\ Print\ the\ next\ mail\ item\ (if\ any)\ for\ this\ user\ to\ the\ text\ \r\n\ terminal.\r\n
+comment4.params=to\ message\ pw
+comment4.target=void\ sendMailItem(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ Send\ the\ given\ message\ to\ the\ given\ recipient\ via\r\n\ the\ attached\ mail\ server.\r\n\ @param\ to\ The\ intended\ recipient.\r\n\ @param\ message\ The\ text\ of\ the\ message\ to\ be\ sent.\r\n
+comment5.params=pw
+comment5.target=void\ getAllMail(java.lang.String)
+comment6.params=pw
+comment6.target=void\ getAllMailFor(java.lang.String)
+comment7.params=
+comment7.target=void\ getAllMailClass()
+numComments=8

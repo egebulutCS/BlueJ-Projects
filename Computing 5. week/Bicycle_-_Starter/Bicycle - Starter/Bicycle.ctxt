@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Bicycle()
+comment1.params=aSpeed\ aGear\ inc\ aType
+comment1.target=Bicycle(int,\ int,\ int,\ java.lang.String)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=int\ getSpeed()
+comment3.params=
+comment3.target=int\ getGear()
+comment4.params=
+comment4.target=java.lang.String\ getBikeType()
+comment5.params=newValue
+comment5.target=void\ changeGear(int)
+comment6.params=
+comment6.target=void\ speedUp()
+comment7.params=
+comment7.target=void\ slowDown()
+comment8.params=
+comment8.target=java.lang.String\ ringTheBell()
+comment9.params=
+comment9.target=void\ showState()
+numComments=11

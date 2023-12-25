@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=StringChallenges2()
+comment1.params=a\ b
+comment1.target=java.lang.String\ comboString(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ 1\r\n\ Given\ 2\ strings,\ a\ and\ b,\ return\ a\ string\ of\ the\ form\ short+long+short,\ \r\n\ with\ the\ shorter\ string\ on\ the\ outside\ and\ the\ longer\ string\ on\ the\ inside.\ \r\n\ The\ strings\ will\ not\ be\ the\ same\ length,\ but\ they\ may\ be\ empty\ (length\ 0).\r\n\r\ncomboString("Hello",\ "hi")\ \u2192\ "hiHellohi"\r\ncomboString("hi",\ "Hello")\ \u2192\ "hiHellohi"\r\ncomboString("aaa",\ "b")\ \u2192\ "baaab"\r\n
+comment2.params=str
+comment2.target=java.lang.String\ middleTwo(java.lang.String)
+comment2.text=\r\n\ 2\r\n\ Given\ a\ string\ of\ even\ length,\ return\ a\ string\ made\ of\ the\ middle\ two\ chars,\ \r\n\ so\ the\ string\ "string"\ yields\ "ri".\ The\ string\ length\ will\ be\ at\ least\ 2.\r\n\r\nmiddleTwo("string")\ \u2192\ "ri"\r\nmiddleTwo("code")\ \u2192\ "od"\r\nmiddleTwo("Practice")\ \u2192\ "ct"\r\n
+comment3.params=str
+comment3.target=boolean\ endsLy(java.lang.String)
+comment3.text=\r\n\ 3\r\n\ Given\ a\ string,\ return\ true\ if\ it\ ends\ in\ "ly".\r\n\r\nendsLy("oddly")\ \u2192\ true\r\nendsLy("y")\ \u2192\ false\r\nendsLy("oddy")\ \u2192\ false\r\n
+comment4.params=str\ n
+comment4.target=java.lang.String\ nTwice(java.lang.String,\ int)
+comment4.text=\r\n\ 4\r\n\ Given\ a\ string\ and\ an\ int\ n,\ return\ a\ string\ made\ of\ the\ first\ and\ last\ n\ chars\ \r\n\ from\ the\ string.\ The\ string\ length\ will\ be\ at\ least\ n.\r\n\r\nnTwice("Hello",\ 2)\ \u2192\ "Helo"\r\nnTwice("Chocolate",\ 3)\ \u2192\ "Choate"\r\nnTwice("Chocolate",\ 1)\ \u2192\ "Ce"\r\n
+comment5.params=str
+comment5.target=boolean\ hasBad(java.lang.String)
+comment5.text=\r\n\ 5\r\n\ Given\ a\ string,\ return\ true\ if\ "bad"\ appears\ starting\ at\ index\ 0\ or\ 1\ in\ the\ string,\ \r\n\ such\ as\ with\ "badxxx"\ or\ "xbadxx"\ but\ not\ "xxbadxx".\ The\ string\ may\ be\ any\ length,\ \r\n\ including\ 0.\ Note\:\ use\ .equals()\ to\ compare\ 2\ strings.\r\n\r\nhasBad("badxx")\ \u2192\ true\r\nhasBad("xbadxx")\ \u2192\ true\r\nhasBad("xxbadxx")\ \u2192\ false\r\n
+numComments=6

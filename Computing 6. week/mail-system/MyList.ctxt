@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MyList()
+comment1.params=aWord
+comment1.target=void\ addToList(java.lang.String)
+comment2.params=aNumber
+comment2.target=java.lang.String\ getItem(int)
+numComments=3

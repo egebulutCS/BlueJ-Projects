@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=aName\ aNumber
+comment0.target=Animal(java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Animal\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\r\n\ @return\ name\r\n
+comment2.params=
+comment2.target=int\ getLegs()
+comment2.text=\r\n\ @return\ number\ of\ legs\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ \ \ \ public\ boolean\ equals(Object\ obj)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ Animal\ aBeast\ \=\ (Animal)\ obj;\r\n\ \ \ \ \ \ \ \ if(this.name.equals(aBeast.getName()))\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ true;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ else{\r\n\ \ \ \ \ \ \ \ \ \ \ \ return\ false;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n
+numComments=4

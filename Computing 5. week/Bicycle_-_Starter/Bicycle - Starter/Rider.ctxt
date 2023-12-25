@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=Rider(java.lang.String)
+comment1.params=aBike
+comment1.target=void\ ringTheBell(Bicycle)
+comment2.params=aBike
+comment2.target=void\ printState(Bicycle)
+comment3.params=aBike
+comment3.target=void\ goFaster(Bicycle)
+comment4.params=aBike\ newGear
+comment4.target=void\ changeGear(Bicycle,\ int)
+comment5.params=aBike
+comment5.target=void\ applyBrakes(Bicycle)
+numComments=6
